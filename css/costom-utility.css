@@ -10,3 +10,8 @@
 .pb-50px {
     padding-bottom: 50px !important;
 }
+
+.m-tb-50px {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
