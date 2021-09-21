@@ -7,6 +7,10 @@
     background-color: #0076bd;
 }
 
+.logo {
+    background: #fefefe;
+}
+
 .nav-text .nav-link {
     color: #fefefe !important;
     display: block;
@@ -74,7 +78,7 @@
     left: 51%;
     right: 51%;
     bottom: 0;
-    background: #f38634;
+    background: #fd5f00;
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -150,8 +154,8 @@
 }
 
 .btn:hover {
-    border-right: 3px solid #f38634;
-    border-top: 2px solid #f38634;
+    border-right: 3px solid #fd5f00;
+    /* border-top: 2px solid #fd5f00; */
 }
 
 .title4 {
@@ -227,7 +231,7 @@
 
 .title4 h4 span,
 .title-color-text {
-    color: #fcb315;
+    color: #fd5f00;
 }
 
 
@@ -358,7 +362,7 @@ footer p {
 .fa,
 .fab,
 .fas {
-    color: #f38634;
+    color: #fd5f00;
 }
 
 .footer_ul2_amrc a {
@@ -370,6 +374,25 @@ footer p {
 
 .comm-banner img {
     width: -webkit-fill-available;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-content {
+    width: 100%;
+    padding: .5rem;
+    height: 220px;
+    color: rgb(255, 255, 255);
+}
+
+.card-content-background1 {
+    background: #fd5f00;
+}
+
+.card-content-background2 {
+    background: #0d1128;
 }
 
 
