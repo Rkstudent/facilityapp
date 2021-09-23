@@ -140,6 +140,29 @@
     line-height: 90px;
 }
 
+.owl-prev span,
+.owl-prev span:focus-visible,
+.owl-prev span:focus,
+.owl-prev span:focus-within,
+.owl-prev span:active,
+.owl-next span,
+.owl-next span:focus-visible,
+.owl-next span:focus,
+.owl-next span:focus-within,
+.owl-next span:active,
+.owl-prev,
+.owl-prev:focus-visible,
+.owl-prev:focus,
+.owl-prev:focus-within,
+.owl-prev:active,
+.owl-next,
+.owl-next:focus-visible,
+.owl-next:focus,
+.owl-next:focus-within,
+.owl-next:active {
+    outline: none;
+}
+
 .carousle-banner .owl-prev {
     position: absolute;
     left: 5px !important;
