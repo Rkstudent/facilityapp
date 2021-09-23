@@ -196,6 +196,13 @@
     /* text-decoration: none */
 }
 
+
+/* .card-body a {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+} */
+
 .title4 {
     text-align: center;
     padding-top: calc(20px + (42 - 20) * ((100vw - 320px) / (1920 - 320)));
