@@ -311,9 +311,23 @@
 
 footer {
     width: 100%;
-    background-color: #263238;
+    /* background-color: #263238; */
     min-height: 250px;
     padding: 10px 0px 25px 0px;
+    background-image: url(../images/footer_bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #2d8cc4c2;
 }
 
 .pt2 {
@@ -323,7 +337,7 @@ footer {
 
 footer p {
     font-size: 13px;
-    color: #ccc;
+    color: #ffffff;
     padding-bottom: 0px;
     margin-bottom: 8px;
 }
@@ -344,11 +358,11 @@ footer p {
 }
 
 .footer_ul_amrc li a {
-    color: #ccc;
+    color: #ffffff;
 }
 
 .footer_ul_amrc li a:hover {
-    color: #fff;
+    color: #ccc;
     text-decoration: none;
 }
 
@@ -434,6 +448,10 @@ footer p {
 }
 
 .footer_ul2_amrc a {
+    color: #ffffff;
+}
+
+.footer_ul2_amrc a:hover {
     color: #ccc;
 }
 
