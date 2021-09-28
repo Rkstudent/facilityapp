@@ -495,3 +495,46 @@ footer p {
 
 
 /* End of about section  */
+
+
+
+
+/* Common style */
+.shape-container-top {
+    left: 0;
+    line-height: 0;
+    overflow: hidden;
+    top: 0;
+    transform: rotate(180deg);
+    width: 100%;
+}
+.shape-container-top svg {
+    display: block;
+    height: 100px;
+    position: relative;
+    transform: rotateY(180deg);
+    width: calc(100% + 1.3px);
+}
+img, svg {
+    vertical-align: middle;
+}
+.shape-container-top .shape-fill {
+    fill: #fff;
+}
+.shape-container-bottom {
+    bottom: 0;
+    left: 0;
+    line-height: 0;
+    overflow: hidden;
+    transform: rotate(180deg);
+    width: 100%;
+}
+.shape-container-bottom svg {
+    display: block;
+    height: 100px;
+    position: relative;
+    width: calc(100% + 1.3px);
+}
+.shape-container-bottom .shape-fill {
+    fill: #fff;
+}
