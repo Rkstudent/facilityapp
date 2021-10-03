@@ -4,17 +4,24 @@
 }
 
 .nav-background {
-    background-color: #ffffff;
+    background-color: #0076bc;
     box-shadow: 0px 5px 10px rgb(0 0 0 / 50%);
 }
 
 .nav-text .nav-link {
-    color: #0076bd !important;
+    color: #fff !important;
     display: block;
 }
 
 .navbar-brand img {
     width: 150px;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0076bc;
 }
 
 
@@ -497,9 +504,8 @@ footer p {
 /* End of about section  */
 
 
-
-
 /* Common style */
+
 .shape-container-top {
     left: 0;
     line-height: 0;
@@ -508,6 +514,7 @@ footer p {
     transform: rotate(180deg);
     width: 100%;
 }
+
 .shape-container-top svg {
     display: block;
     height: 100px;
@@ -515,12 +522,16 @@ footer p {
     transform: rotateY(180deg);
     width: calc(100% + 1.3px);
 }
-img, svg {
+
+img,
+svg {
     vertical-align: middle;
 }
+
 .shape-container-top .shape-fill {
     fill: #fff;
 }
+
 .shape-container-bottom {
     bottom: 0;
     left: 0;
@@ -529,12 +540,14 @@ img, svg {
     transform: rotate(180deg);
     width: 100%;
 }
+
 .shape-container-bottom svg {
     display: block;
     height: 100px;
     position: relative;
     width: calc(100% + 1.3px);
 }
+
 .shape-container-bottom .shape-fill {
     fill: #fff;
 }
